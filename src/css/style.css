@@ -1,0 +1,152 @@
+body {
+  background-color: #eeee;
+}
+.main-container{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  box-sizing: border-box;
+}
+
+.container{
+  border: 2px grey solid;
+  box-shadow: 0px 0px 16px 6px #a0dc91;
+  min-height: 200px;
+  max-height: 700px;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 20vh;
+}
+
+.border-green {
+  border: 3px solid rgb(106, 223, 106);
+  background-color: rgb(161, 231, 161);
+  box-sizing: border-box;
+}
+.border-red {
+  border: 3px solid red;
+  background-color: rgb(223, 124, 116);
+  box-sizing: border-box;
+}
+
+input, .button {
+  outline: none;
+  margin: 4px;
+  border-radius: 4px;
+  padding: 4px;
+  box-shadow: 0px 0px 16px 6px #a0dc91;
+}
+span {
+  margin-left: 4px;
+  
+}
+input:focus{
+  outline: none;
+}
+h1{
+  color: green;
+  margin: auto ;
+  margin-bottom: 12px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+.error{
+  text-align: center;
+  font-size: 60px;
+}
+.error-link{
+  max-width: fit-content;
+  display: flex;
+  margin: auto;
+}
+.dash-container{
+  margin-top: 8vh;
+  border: 2px solid grey;
+  max-width: 67%;
+  padding: 8px;
+  border-radius: 8px;
+  margin: auto;
+  margin-top: 20vh;
+  }
+  .dash-button {
+    display: flex;
+    margin: 4px auto 18px auto;
+    border-radius: 12px;
+    border: none;
+    padding: 6px;
+  }
+  
+  .error-container{
+    border: 2px solid grey; 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  a{
+    margin: auto;
+    font-size: 22px;
+  }
+  svg {
+    margin-top: 30px;
+  }
+  .dash-nav {
+    background-color: rgb(238, 211, 233);
+    border-radius: 18px;
+    margin: auto;
+    margin-top: -100px;
+    display: flex;
+    position: fixed;
+    width: 98%;
+}
+button.dash-button {
+  margin-top: 16px;
+}
+.login-loader {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.login-loader {
+    margin-top: -14px;
+}
+img{
+  border-radius: 6px;
+  margin: 6px;
+}
+input[type="submit"] {
+  box-shadow: 0px 0px 16px 6px #a0dc91;
+  display: flex;
+  margin: 10px auto auto auto;
+}
+span#loader {
+  margin: 45px 20px 18px 14px;
+}
+input[type="submit"]:hover {
+  background-color: rgb(72, 151, 72);
+}
+h3 {
+  color: red;
+}
+.page-true {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  border-bottom: 4px solid rgb(236, 145, 145);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+  
+.page-false {
+  display: flex;
+}
+.index-value {
+  width: 30px;
+}
+.page-false.true{
+  background-color: orange;
+}
